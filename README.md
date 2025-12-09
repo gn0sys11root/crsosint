@@ -1,10 +1,20 @@
 # CRSOISNT (Herramienta OSINT para rastreo de huellas digitales por email)
 
-Hice una herramienta OSINT para rastrear cuentas y registros de cuentas en base a la direccion de email. actualmente tiene mas de 30 modulos OSINT funcionales. desde hace años soy un entusiasta del osint y usuario de algunas herramientas como EPIEOS o OSINT Industries y hace algunas semanas se me ocurrio hacer una herramienta propia OSINT. actualmente esta dirigida para consultar direcciones de email mas de 30 modulos OSINT, tal vez en algun momento tenga mas metodo
+**CRSOSINT** es una suite avanzada de Inteligencia de Fuentes Abiertas (OSINT) diseñada para la enumeración y rastreo de huella digital (*digital footprinting*) basada vectores de correo electrónico. La herramienta orquesta más de 30 módulos de reconocimiento activos para identificar la presencia de una identidad digital en múltiples plataformas y servicios en línea. Desarrollada con un enfoque modular, CRSOSINT permite a investigadores y analistas de ciberinteligencia correlacionar datos dispersos para construir un perfil digital integral del objetivo, similar a soluciones empresariales de reconocimiento.
 
-si te gusta el OSINT y te gustaria que agregeria que agrege un nuevo stiio web para verificar que esta registrada o te gustaria hacer una contribucion al proyecto lo que tienes que hacer es contactame o iniciar una issues aqui.
+### Contribución y Desarrollo
+El proyecto adopta una filosofía de código abierto y desarrollo colaborativo. Se invita a la comunidad de analistas y desarrolladores a contribuir con nuevos módulos de verificación o mejoras en la arquitectura de recolección. Para proponer nuevos vectores de búsqueda o reportar anomalías, por favor abra un *Issue* o envíe un *Pull Request* en este repositorio.
 
 ![Interfaz Principal](public/assets/main_screenshot.png)
+
+### Stack Tecnológico
+El núcleo de la aplicación está construido sobre tecnologías web modernas de alto rendimiento:
+
+- **Framework**: [Next.js 16](https://nextjs.org/) (React 19 RC)
+- **Lenguaje**: [TypeScript](https://www.typescriptlang.org/)
+- **Estilos**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Motor OSINT**: [Puppeteer](https://pptr.dev/) (Browser Automation) & [Cheerio](https://cheerio.js.org/) (HTML Parsing)
+- **Iconografía**: [Lucide React](https://lucide.dev/)
 
 ## Guia para instalar las librerias y la herramienta
 
@@ -110,6 +120,4 @@ fetch(url, {
 .then(response => response.json())
 .then(data => console.log(data));
 ```
-
-
 
