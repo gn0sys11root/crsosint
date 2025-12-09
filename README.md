@@ -1,6 +1,6 @@
 # CRSOISNT 
 
-**CRSOSINT** es una suite avanzada de Inteligencia de Fuentes Abiertas (OSINT) diseñada para la enumeración y rastreo de huella digital (*digital footprinting*) basada vectores de correo electrónico. La herramienta orquesta más de 30 módulos de reconocimiento activos para identificar la presencia de una identidad digital en múltiples plataformas y servicios en línea. Desarrollada con un enfoque modular, CRSOSINT permite a investigadores y analistas de ciberinteligencia correlacionar datos dispersos para construir un perfil digital integral del objetivo, similar a soluciones empresariales de reconocimiento.
+**CRSOSINT** es una suite avanzada de OSINT diseñada para la enumeración y rastreo de huella digital basada vectores de correo electrónico. La herramienta orquesta más de 30 módulos de reconocimiento activos para identificar la presencia de una identidad digital en múltiples plataformas y servicios en línea. Desarrollada con un enfoque modular, CRSOSINT permite a investigadores y analistas de ciberinteligencia correlacionar datos dispersos para construir un perfil digital integral del objetivo, similar a soluciones empresariales de reconocimiento.
 
 ### Contribución y Desarrollo
 El proyecto adopta una filosofía de código abierto y desarrollo colaborativo. Se invita a la comunidad de analistas y desarrolladores a contribuir con nuevos módulos de verificación o mejoras en la arquitectura de recolección. Para proponer nuevos vectores de búsqueda o reportar anomalías, por favor abra un *Issue* o envíe un *Pull Request* en este repositorio.
@@ -119,6 +119,7 @@ El núcleo de la aplicación está construido sobre tecnologías web modernas de
 - **Estilos**: [Tailwind CSS 4](https://tailwindcss.com/)
 - **Motor OSINT**: [Puppeteer](https://pptr.dev/) (Browser Automation) & [Cheerio](https://cheerio.js.org/) (HTML Parsing)
 - **Iconografía**: [Lucide React](https://lucide.dev/)
+
 
 
 
