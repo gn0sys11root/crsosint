@@ -6,6 +6,32 @@ si te gusta el OSINT y te gustaria que agregeria que agrege un nuevo stiio web p
 
 ![Interfaz Principal](public/assets/main_screenshot.png)
 
+## 🚀 Instalación Rápida (Para Principiantes)
+
+Este proyecto funciona con **Next.js**, así que es muy fácil de correr. Solo necesitas tener [Node.js](https://nodejs.org/) instalado en tu PC.
+
+1. **Descarga el proyecto**:
+   ```bash
+   git clone https://github.com/tu-usuario/crsosint.git
+   cd crsosint
+   ```
+
+2. **Instala las librerías**:
+   Escribe esto en tu terminal dentro de la carpeta del proyecto para descargar lo necesario:
+   ```bash
+   npm install
+   ```
+
+3. **Inicia la herramienta**:
+   Enciende el servidor local con este comando:
+   ```bash
+   npm run dev
+   ```
+
+4. **¡Listo!**:
+   Abre tu navegador y entra a: `http://localhost:3000`
+
+
 ## Tabla de Modulos OSINT
 
 | Modulo | Checkeo de registro | info de la cuenta | Token de autorizacion | Alerta al usuario |
@@ -46,7 +72,8 @@ si te gusta el OSINT y te gustaria que agregeria que agrege un nuevo stiio web p
 
 ## Checkeo de Brechas de datos con Have I Been Pwned
 
-Utilizando la API de XposedOrNot que es un proxy para la API de Have I Been Pwned para saber si la direccion de email consultada esta en brechas de datos y en cuales esta ademas de la informacion sensible filtrada. para esto no se necesitan tokens de autorizacion ni configurarlo en la herramienta, viene por default configurado correctamente.
+Análisis automatizado de vulneración de credenciales mediante la integración con la API de XposedOrNot, la cual actúa como proxy autorizado para el servicio Have I Been Pwned. Este módulo permite verificar la presencia de una dirección de correo electrónico en filtraciones de datos conocidas, proporcionando detalles exhaustivos sobre la información sensible expuesta. La funcionalidad está preconfigurada y optimizada para su uso inmediato, eliminando la necesidad de gestión de tokens de autorización o configuraciones manuales adicionales.
+
 ![Checkeo de Brechas](public/assets/breach_screenshot.png)
 
 ```javascript
@@ -66,7 +93,8 @@ fetch(apiUrl, {
 
 ## API de HudsonRock para ver informacion basica de dispositivos infectados con malware
 
-Uitlizando la API publica de HudsonRock con una direccion de email es posible obtener datos del dispositivo infectado y otros datos como la direccion IP censurada y informacion censurada de datos recolectados por el spyware (pass y emails)
+Integración con la API de Cavalier (Hudson Rock) para la identificación avanzada de vectores de compromiso por malware. Este módulo permite correlacionar una dirección de email con dispositivos infectados por Infostealers, revelando indicadores críticos de compromiso (IOCs) como direcciones IP, rutas de sistema y credenciales exfiltradas, proporcionando una visión profunda sobre la exposición de identidad en entornos de cibercrimen.
+
 ![API HudsonRock](public/assets/hudson_screenshott.png)
 
 ```javascript
@@ -82,5 +110,4 @@ fetch(url, {
 .then(response => response.json())
 .then(data => console.log(data));
 ```
-
 
