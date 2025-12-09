@@ -7,15 +7,6 @@ The project adopts an open-source and collaborative development philosophy. The 
 
 ![Main Interface](public/assets/main_screenshot.png)
 
-### Tech Stack
-The application core is built upon modern high-performance web technologies:
-
-- **Framework**: [Next.js 16](https://nextjs.org/) (React 19 RC)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Styles**: [Tailwind CSS 4](https://tailwindcss.com/)
-- **OSINT Engine**: [Puppeteer](https://pptr.dev/) (Browser Automation) & [Cheerio](https://cheerio.js.org/) (HTML Parsing)
-- **Iconography**: [Lucide React](https://lucide.dev/)
-
 ## Installation Guide
 
 This project runs on **Next.js**, making it easy to deploy. You only need [Node.js](https://nodejs.org/) installed on your PC.
@@ -120,4 +111,12 @@ fetch(url, {
 .then(response => response.json())
 .then(data => console.log(data));
 ```
+### Tech Stack
+The application core is built upon modern high-performance web technologies:
+
+- **Framework**: [Next.js 16](https://nextjs.org/) (React 19 RC)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styles**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **OSINT Engine**: [Puppeteer](https://pptr.dev/) (Browser Automation) & [Cheerio](https://cheerio.js.org/) (HTML Parsing)
+- **Iconography**: [Lucide React](https://lucide.dev/)
 
