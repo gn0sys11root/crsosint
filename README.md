@@ -47,6 +47,7 @@ si te gusta el OSINT y te gustaria que agregeria que agrege un nuevo stiio web p
 ## Checkeo de Brechas de datos con Have I Been Pwned
 
 Utilizando la API de XposedOrNot que es un proxy para la API de Have I Been Pwned para saber si la direccion de email consultada esta en brechas de datos y en cuales esta ademas de la informacion sensible filtrada. para esto no se necesitan tokens de autorizacion ni configurarlo en la herramienta, viene por default configurado correctamente.
+![Checkeo de Brechas](public/assets/breach_screenshot.png)
 
 ```javascript
 const email = 'example@email.com';
@@ -63,11 +64,10 @@ fetch(apiUrl, {
 .then(data => console.log(data));
 ```
 
-![Checkeo de Brechas](public/assets/breach_screenshot.png)
-
 ## API de HudsonRock para ver informacion basica de dispositivos infectados con malware
 
 Uitlizando la API publica de HudsonRock con una direccion de email es posible obtener datos del dispositivo infectado y otros datos como la direccion IP censurada y informacion censurada de datos recolectados por el spyware (pass y emails)
+![API HudsonRock](public/assets/hudson_screenshot.png)
 
 ```javascript
 const email = 'example@email.com';
@@ -83,4 +83,3 @@ fetch(url, {
 .then(data => console.log(data));
 ```
 
-![API HudsonRock](public/assets/hudson_screenshot.png)
