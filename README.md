@@ -6,29 +6,29 @@ si te gusta el OSINT y te gustaria que agregeria que agrege un nuevo stiio web p
 
 ![Interfaz Principal](public/assets/main_screenshot.png)
 
-## 🚀 Instalación Rápida (Para Principiantes)
+## Guia para instalar las librerias y la herramienta
 
 Este proyecto funciona con **Next.js**, así que es muy fácil de correr. Solo necesitas tener [Node.js](https://nodejs.org/) instalado en tu PC.
 
-1. **Descarga el proyecto**:
+1. **Descarga del repositorio con la herramienta CRSOSINT**:
    ```bash
    git clone https://github.com/tu-usuario/crsosint.git
    cd crsosint
    ```
 
-2. **Instala las librerías**:
+2. **Instala las librerias requeridas para correrlo**:
    Escribe esto en tu terminal dentro de la carpeta del proyecto para descargar lo necesario:
    ```bash
    npm install
    ```
 
-3. **Inicia la herramienta**:
+3. **Inicia la herramienta en el localhost**:
    Enciende el servidor local con este comando:
    ```bash
    npm run dev
    ```
 
-4. **¡Listo!**:
+4. **paso final para probar la herramienta**:
    Abre tu navegador y entra a: `http://localhost:3000`
 
 
@@ -110,4 +110,5 @@ fetch(url, {
 .then(response => response.json())
 .then(data => console.log(data));
 ```
+
 
