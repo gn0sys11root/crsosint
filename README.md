@@ -7,15 +7,6 @@ El proyecto adopta una filosofía de código abierto y desarrollo colaborativo. 
 
 ![Interfaz Principal](public/assets/main_screenshot.png)
 
-### Stack Tecnológico
-El núcleo de la aplicación está construido sobre tecnologías web modernas de alto rendimiento:
-
-- **Framework**: [Next.js 16](https://nextjs.org/) (React 19 RC)
-- **Lenguaje**: [TypeScript](https://www.typescriptlang.org/)
-- **Estilos**: [Tailwind CSS 4](https://tailwindcss.com/)
-- **Motor OSINT**: [Puppeteer](https://pptr.dev/) (Browser Automation) & [Cheerio](https://cheerio.js.org/) (HTML Parsing)
-- **Iconografía**: [Lucide React](https://lucide.dev/)
-
 ## Guia para instalar las librerias y la herramienta
 
 Este proyecto funciona con **Next.js**, así que es muy fácil de correr. Solo necesitas tener [Node.js](https://nodejs.org/) instalado en tu PC.
@@ -120,4 +111,13 @@ fetch(url, {
 .then(response => response.json())
 .then(data => console.log(data));
 ```
+
+### Stack Tecnológico
+El núcleo de la aplicación está construido sobre tecnologías web modernas de alto rendimiento:
+- **Framework**: [Next.js 16](https://nextjs.org/) (React 19 RC)
+- **Lenguaje**: [TypeScript](https://www.typescriptlang.org/)
+- **Estilos**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Motor OSINT**: [Puppeteer](https://pptr.dev/) (Browser Automation) & [Cheerio](https://cheerio.js.org/) (HTML Parsing)
+- **Iconografía**: [Lucide React](https://lucide.dev/)
+
 
