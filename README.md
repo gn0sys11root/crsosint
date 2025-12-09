@@ -105,7 +105,7 @@ fetch(apiUrl, {
 
 Integration with the Cavalier (Hudson Rock) API for advanced identification of malware compromise vectors. This module correlates an email address with devices infected by Infostealers, revealing critical indicators of compromise (IOCs) such as IP addresses, system paths, and exfiltrated credentials, providing deep insight into identity exposure in cybercrime environments.
 
-![HudsonRock API](public/assets/hudson_screenshot.png)
+![HudsonRock API](public/assets/hudson_screenshott.png)
 
 ```javascript
 const email = 'example@email.com';
@@ -120,3 +120,4 @@ fetch(url, {
 .then(response => response.json())
 .then(data => console.log(data));
 ```
+
