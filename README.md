@@ -1,6 +1,7 @@
 # CRSOISNT 
 
 **CRSOSINT** is an advanced Open Source Intelligence (OSINT) suite designed for email vector-based enumeration and fingerprinting. The tool orchestrates over 30 asset recognition modules to identify the presence of a digital identity across multiple online platforms and services. Developed with a modular approach, CRSOSINT enables cyber intelligence researchers and analysts to correlate disparate data to build a comprehensive digital profile of the target, similar to enterprise reconnaissance solutions.
+[Para habla hispana aca el readme en español](https://github.com/gn0sys11root/crsosint/blob/main/README_ES.md)
 
 ### Contribution and Development
 The project adopts an open-source and collaborative development philosophy. The community of analysts and developers is invited to contribute new verification modules or improvements to the collection architecture. To propose new search vectors or report anomalies, please open an *Issue* or submit a *Pull Request* in this repository.
@@ -119,4 +120,5 @@ The application core is built upon modern high-performance web technologies:
 - **Styles**: [Tailwind CSS 4](https://tailwindcss.com/)
 - **OSINT Engine**: [Puppeteer](https://pptr.dev/) (Browser Automation) & [Cheerio](https://cheerio.js.org/) (HTML Parsing)
 - **Iconography**: [Lucide React](https://lucide.dev/)
+
 
