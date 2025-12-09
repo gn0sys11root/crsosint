@@ -67,7 +67,7 @@ fetch(apiUrl, {
 ## API de HudsonRock para ver informacion basica de dispositivos infectados con malware
 
 Uitlizando la API publica de HudsonRock con una direccion de email es posible obtener datos del dispositivo infectado y otros datos como la direccion IP censurada y informacion censurada de datos recolectados por el spyware (pass y emails)
-![API HudsonRock](public/assets/hudson_screenshot.png)
+![API HudsonRock](public/assets/hudson_screenshott.png)
 
 ```javascript
 const email = 'example@email.com';
@@ -82,4 +82,5 @@ fetch(url, {
 .then(response => response.json())
 .then(data => console.log(data));
 ```
+
 
